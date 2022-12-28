@@ -4,11 +4,6 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: () => import("../views/Home.vue")
-    },
-    {
       path: '/int-print-32bit',
       name: 'int-print-32bit',
       component: () => import("../test/int-print-32bit.vue")
@@ -17,6 +12,11 @@ const router = createRouter({
       path: '/sort',
       name: 'sort',
       component: () => import("../test/sort.vue")
+    },
+    {
+      path: '/range-sum',
+      name: 'rangeSum',
+      component: () => import("../test/rangeSum.vue")
     },
   ]
 })

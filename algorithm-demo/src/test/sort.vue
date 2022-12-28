@@ -27,7 +27,6 @@
 </script>
 
 <template>
-  <Home></Home>
   <h1>排序</h1>
   <div class="category">
     <button @click="selection">selection sort</button>
