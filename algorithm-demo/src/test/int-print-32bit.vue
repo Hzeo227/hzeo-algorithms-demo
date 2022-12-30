@@ -7,7 +7,6 @@
 </script>
 
 <template>
-  <Home/>
   <h1>整数打印32位状态</h1>
 </template>
 

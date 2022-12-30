@@ -18,6 +18,11 @@ const router = createRouter({
       name: 'rangeSum',
       component: () => import("../test/rangeSum.vue")
     },
+    {
+      path: '/random',
+      name: 'random',
+      component: () => import("../test/random.vue")
+    },
   ]
 })
 

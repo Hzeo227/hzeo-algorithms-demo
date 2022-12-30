@@ -10,8 +10,12 @@
       ],
       "utils/*": [
         "src/utils/*"
+      ],
+      "sorts/*": [
+        "src/algorithms/sort*"
       ]
     },
+    "allowJs": true,
     "lib": [
       "esnext",
       "dom",
