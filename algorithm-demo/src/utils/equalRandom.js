@@ -22,8 +22,8 @@ export function fn2() {
   return ans
 }
 
-// 01不等概率
-// 01等概率
+// 给：01不等概率
+// 求：01等概率
 export function _01fn() {
   return Math.random() < 0.83 ? 0 : 1
 }
@@ -36,6 +36,7 @@ export function _01fn1() {
   return ans
 }
 
+// 随机生成最大值不超过maxValue，长度为0~maxLen的数组
 export function randLenRandValue(maxLen, maxValue) {
   let len = Number.parseInt(Math.random() * maxLen) + 1
   let arr = []
@@ -45,6 +46,7 @@ export function randLenRandValue(maxLen, maxValue) {
   return arr
 }
 
+// 判断数组是否排序
 export function isSorted(arr) {
   if (arr.length < 2) {
     return truek
